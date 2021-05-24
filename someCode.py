@@ -18,7 +18,6 @@ paragraphs = [
 
 count = 0
 for paragraph in paragraphs:
-    count += len(paragraph)
     for word in paragraph.split(''):
         count += 1
 
